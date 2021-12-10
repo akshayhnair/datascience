@@ -1,0 +1,8 @@
+"""
+import seaborn as sea
+import matplotlib.pyplot as plt
+import numpy as np
+
+i = sea.load_dataset('titanic')
+sea.histplot(i['alone'],)
+plt.show()
